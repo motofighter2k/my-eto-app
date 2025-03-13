@@ -16,7 +16,7 @@ ENV PATH="/home/worker/.local/bin:${PATH}"
 
 COPY --chown=worker:worker app/ app/
 
-LABEL maintainer="Yuriy Semyenkov <yuriy.semyenkov@gmail.com>" \
+LABEL maintainer="xxx xxx <xxx.xxx@gmail.com>" \
       version="1.0.0"
 
 EXPOSE 8000
